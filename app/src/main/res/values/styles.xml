@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccentSecondary</item>
+        <item name="colorPrimaryDark">@color/colorAccentSecondary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccentSecondary</item>
+        <item name="android:navigationBarColor">@color/colorAccentSecondary</item>
+        <item name="android:colorEdgeEffect">@color/colorAccentSecondary</item>
+    </style>
+
+    <!--FULL SCREEN ACTIVITY THEME-->
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <!--STYLE FOR ACTIOIN BAR-->
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!--STYLE TO MAKE THE APP WITHOUT ACTIOIN BAR-->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorAccentSecondary</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!--THEME FOR BOTTOM NAVIGATION VIEW-->
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+</resources>

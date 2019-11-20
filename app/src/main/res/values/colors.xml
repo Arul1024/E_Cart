@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_old">#008577</color>
+    <color name="colorPrimaryDark_old">#00574B</color>
+    <color name="colorAccent_old">#D81B60</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorPrimary_1">#6b3956</color>
+    <color name="colorPrimary">#6b3956</color>
+    <color name="colorPrimaryDark_1">#3E102D</color>
+    <color name="colorPrimaryDark">#3E102D</color>
+    <color name="colorAccent_1">#9A6583</color>
+    <color name="colorAccent">#9A6583</color>
+    <color name="colorAccentSecondary_1">#ead5dc</color>
+    <color name="colorAccentSecondary">#ffffff</color>
+
+</resources>
