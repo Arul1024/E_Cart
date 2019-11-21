@@ -57,7 +57,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
     }
 
-    /** Clicking Event For All UI Functions in Login Activity */
+    /** Clicking Event For All Button Call in Login Action.. */
     @Override
     public void onClick(View v) {
         if (v == next){
@@ -67,7 +67,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             }else{
                 Toast.makeText(getApplication().getBaseContext(),"Getting OTP",Toast.LENGTH_LONG);
                 Log.d("Loader Message ","Getting otp for the validation");
-
                 startActivity(new Intent(getBaseContext(), ShowItems.class));
             }
         }
