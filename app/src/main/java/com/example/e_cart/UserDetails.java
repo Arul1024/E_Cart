@@ -32,6 +32,7 @@ public class UserDetails extends AppCompatActivity implements View.OnClickListen
         skip.setOnClickListener(this);
     }
 
+    /* Clicking Event For All UI Button clicks */
     @Override
     public void onClick(View v) {
         if (v == next){
